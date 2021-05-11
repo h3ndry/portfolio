@@ -1,0 +1,58 @@
+author = "Simanga Hendry Khoza"
+baseurl = "/"
+canonifyurls = true
+copyright = "Copyright © 2008–2021, Steve Francia and the Hugo Authors; all rights reserved."
+paginate = 5
+theme = "alageek"
+title = "HENDRY"
+
+[params]
+copyright = "© 2021 by Hendry"
+copyrightUrl = "https://gokmengorgen.net"
+description = "Portfolio website for simanga Hendry Khoza"
+faviconfile = "https://gokmengorgen.net/img/laughing-man-favicon.png"
+latestpostcount = 5
+logofile = "/image.png"
+highlightjs = true
+highlightjslanguages = [ "bash", "css", "diff", "django", "javascript", "python", "yaml" ]
+toc = true
+posts_navigation = true
+progressively = true
+github = "h3ndry"
+linkedin = "simanga-hendry-khoza-83a3a318a/"
+twitter = "3h3ndry"
+email = "h3khoza@gmail.com"
+
+[[params.best_posts]]
+title = "Migrate to Hugo from Jekyll"
+url = "/blog/migrate-from-jekyll/"
+
+[[menu.primary]]
+identifier = "blog"
+name = "Resume"
+url = "/blog/"
+weight = 10
+
+[[menu.primary]]
+identifier = "about"
+name = "My Work"
+url = "https://github.com/h3ndry"
+weight = 20
+
+[[menu.secondary]]
+identifier = "patreon"
+name = "YouTube"
+url = "https://www.youtube.com/channel/UC5GA7zWxLqMWaDOFs_wvBQw"
+weight = 110
+
+[[menu.secondary]]
+identifier = "bmc"
+name = ""
+url = "https://www.buymeacoffee.com/gokmen"
+weight = 120
+
+[[menu.footer]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 50
