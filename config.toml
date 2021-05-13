@@ -8,9 +8,9 @@ title = "HENDRY"
 
 [params]
 copyright = "© 2021 by Hendry"
-copyrightUrl = "https://gokmengorgen.net"
+copyrightUrl = "https://hendry.xyz"
 description = "Portfolio website for simanga Hendry Khoza"
-faviconfile = "https://gokmengorgen.net/img/laughing-man-favicon.png"
+faviconfile = "/image.png"
 latestpostcount = 5
 logofile = "/image.png"
 highlightjs = true
@@ -24,13 +24,13 @@ twitter = "3h3ndry"
 email = "h3khoza@gmail.com"
 
 [[params.best_posts]]
-title = "Migrate to Hugo from Jekyll"
-url = "/blog/migrate-from-jekyll/"
+title = "How To Download Videos on Udemy Using youtube-dl"
+url = "/blog/how_to_download_udemy_videos/"
 
 [[menu.primary]]
 identifier = "blog"
 name = "Resume"
-url = "/blog/"
+url = "/resume/sh_khoza_resume.pdf/"
 weight = 10
 
 [[menu.primary]]
