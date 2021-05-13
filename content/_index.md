@@ -1,5 +1,5 @@
 +++
-title = "alaGeek Theme"
+title = "Simanga Hendry Khoza"
 date = "2014-04-09"
 menu = "main"
 +++

@@ -16,6 +16,7 @@ date = 2021-01-29T00:23:34Z
 draft = false
 +++
 
+
 If you are like me, the reason you chose [Udemy](https://www.udemy.com/) as a
 leaning platform is because of their insane discount on courses, but that serve
 nothing if you are from a country where data bundles cost too much. You end up
