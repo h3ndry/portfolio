@@ -11,7 +11,7 @@
 \usepackage{graphicx}
 \usepackage{outlines}
 
-\setlist[itemize]{leftmargin=*,noitemsep,topsep=.32cm,parsep=0pt,partopsep=0pt}
+\setlist[itemize]{leftmargin=*,noitemsep,topsep=.32cm,parsep=0.32cm,partopsep=0pt}
 \linespread{1.15}
 \geometry{a4paper,
     left={0.5in},
@@ -23,7 +23,7 @@
 \pagenumbering{gobble}
 \newenvironment{csection}[2]{
     {\fontfamily{pcr}\selectfont \textbf{#1} }
-    \vspace{0.15cm}
+    \vspace{0.16cm}
     \hrule
     {#2}
 }{}
@@ -31,9 +31,15 @@
 \newenvironment{frcontent}[4]{
     {
         \textbf{#1} \leavevmode\newline
-         	{#2} \leavevmode\newline
-        {\textit{#3} }
-        \vspace{0.2cm} \leavevmode\newline
+        {#2} \hfill {\textit{#3} } \leavevmode\newline
         {#4}
+    }
+}{}
+
+\newenvironment{fpcontent}[4]{
+    {
+        \textbf{#1} \hfill {#2} \leavevmode\newline
+        {#3} \leavevmode\newline
+        \footnotesize{\textit{#4}}
     }
 }{}
