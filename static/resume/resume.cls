@@ -11,11 +11,11 @@
 \usepackage{graphicx}
 \usepackage{outlines}
 
-\setlist[itemize]{leftmargin=*}
+\setlist[itemize]{leftmargin=*,noitemsep,topsep=.32cm,parsep=0pt,partopsep=0pt}
 \linespread{1.15}
 \geometry{a4paper,
     left={0.5in},
-    top={0.4in}, 
+    top={0.4in},
     right={0.5in},
     bottom={0.4in}
 }
@@ -23,8 +23,8 @@
 \pagenumbering{gobble}
 \newenvironment{csection}[2]{
     {\fontfamily{pcr}\selectfont \textbf{#1} }
-    \vspace{0.15cm} 
-    \hrule 
+    \vspace{0.15cm}
+    \hrule
     {#2}
 }{}
 
@@ -32,8 +32,8 @@
     {
         \textbf{#1} \leavevmode\newline
          	{#2} \leavevmode\newline
-        {\textit{#3} } 
-        \vspace{0.2cm} \leavevmode\newline 
-        {#4} 
+        {\textit{#3} }
+        \vspace{0.2cm} \leavevmode\newline
+        {#4}
     }
 }{}
