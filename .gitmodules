@@ -1,5 +1,5 @@
 [submodule "themes/alegeek"]
-	path = themes/alegeek
+	path = themes/alageek
 	url = git@github.com:gkmngrgn/hugo-alageek-theme.git
 [submodule "public"]
 	path = public
