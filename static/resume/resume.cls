@@ -31,7 +31,8 @@
 \newenvironment{frcontent}[4]{
     {
         \textbf{#1} \leavevmode\newline
-        {#2} \hfill {\textit{#3} } \leavevmode\newline
+        {#2} \leavevmode\newline
+        {\textit{#3} } \leavevmode\newline
         {#4}
     }
 }{}
